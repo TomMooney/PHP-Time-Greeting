@@ -1,0 +1,8 @@
+<?php 
+			$Hour = date("H", time(date_default_timezone_set ("Europe/London"))); 
+				if ($Hour > 21) {print "Good Night";} 
+				elseif ($Hour > 17) {print "Good Evening";} 
+				elseif ($Hour > 11) {print "Good Afternoon";} 
+				elseif ($Hour > 6) {print "Good Morning";} 
+				else {print "Good Night";} 
+		?>
